@@ -1,5 +1,5 @@
 # create a repository 
-Create a repository in your GitHub account and name is something like groceries-excercise
+Create a repository in your GitHub account and name is something like groceries-exercise
 
 # add .gitignore and License (optional)
 add a Python flavored .gitignore file and a license (optional)
@@ -15,7 +15,7 @@ Using your text editor (e.g. VS Code) or command line, create a new file called 
 
 # groceries.py
 
-# from pprint import pprint
+# from print import print
 
 products = [
     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
@@ -41,7 +41,7 @@ products = [
 ] # based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
 
 print(products)
-# pprint(products)
+# print(products)
 
 # TODO: write some Python code here to produce the desired output
 
@@ -49,9 +49,8 @@ print(products)
 # setup your Anaconda environment
 create and activate Anaconda virtual environment by writing the below commands
 
-conda create -n groceries-env python=3.7 # (first time only)
+conda create -n groceries-env python=3.7 
 conda activate groceries-env
 
 # Run the app
 python groceries.py
-
