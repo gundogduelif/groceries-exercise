@@ -1,21 +1,6 @@
-# create a repository 
-Create a repository in your GitHub account and name is something like groceries-excercise
-
-# add .gitignore and License (optional)
-add a Python flavored .gitignore file and a license (optional)
-
-# Clone to local
-Clone using GitHub Desktop application to your local computer in a file you will easily remember
-
-# move to right directory
-Use command line to ensure you are in the right directory
-
-# create groceries.py
-Using your text editor (e.g. VS Code) or command line, create a new file called groceries.py and add the following to it
-
 # groceries.py
 
-# from pprint import pprint
+#from pprint import pprint
 
 products = [
     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
@@ -44,14 +29,3 @@ print(products)
 # pprint(products)
 
 # TODO: write some Python code here to produce the desired output
-
-
-# setup your Anaconda environment
-create and activate Anaconda virtual environment by writing the below commands
-
-conda create -n groceries-env python=3.7 # (first time only)
-conda activate groceries-env
-
-# Run the app
-python groceries.py
-
