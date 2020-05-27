@@ -29,11 +29,11 @@ products = [
 
 # PART - 1 
 
-# products = sorted(products, key=operator.itemgetter("name") )
-# products_count = len(products)
-# print("--------------")
-# print("THERE ARE " + str(products_count) + " PRODUCTS:")
-# print("--------------")
+products = sorted(products, key=operator.itemgetter("name") )
+products_count = len(products)
+print("--------------")
+print("THERE ARE " + str(products_count) + " PRODUCTS:")
+print("--------------")
 
 # {"id":1,
 #  "name": "Chocolate Sandwich Cookies", 
@@ -42,10 +42,9 @@ products = [
 # "price": 3.50}
 # person["first_name"]
 
-# for x in products:
-#    usd = "${0:.2f}".format(x["price"])
-#    print(" + " + x["name"] + " (" +str(usd) + ")")
-
+for x in products:
+    usd = "${0:.2f}".format(x["price"])
+    print(" + " + x["name"] + " (" +str(usd) + ")")
 
 # --------------
 # THERE ARE 20 PRODUCTS:
@@ -93,8 +92,8 @@ for d in unique_departments:
         label = "products"
     else:
         label = "product"    
-    print(d.title() + " (" + str(matching_products_count) + " " + label + ")") 
-    
+    print(" + " + d.title() + " (" + str(matching_products_count) + " " + label + ")") 
+
 
 
 # --------------
