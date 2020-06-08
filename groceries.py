@@ -108,4 +108,8 @@ for d in unique_departments:
 # + Meat Seafood (1 product)
 # + Pantry (2 products)
 # + Personal Care (2 products)
+<<<<<<< HEAD
 # + Snacks (2 products)
+=======
+# + Snacks (2 products)
+>>>>>>> 2d15801223561621a5cef627332a27bfb29c22ce
